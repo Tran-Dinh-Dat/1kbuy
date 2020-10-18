@@ -1,0 +1,288 @@
+.column-products {
+    float: left;
+    width: 25%;
+}
+.column-products img{
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+.cursor {
+    cursor: pointer;
+    width: 100%;
+}
+.active,
+.demo:hover {
+    opacity: 1;
+}
+.pre,
+.nextt {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white !important;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.description-products {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+.nextt {
+    right: 30px;
+}
+.prev:hover,
+.nextt:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+.row-products {
+    margin: 0 auto;
+}
+.row-main-products {
+    background-color: white;
+}
+.shop-left .shop .products-text {
+    background-color: white;
+    padding: 10px 3px;
+    text-align: center;
+}
+.description-products h2 {
+    color: orangered;
+    font-family: "Open Sans", sans-serif;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+.description-products p {
+    font-family: "Open Sans", sans-serif;
+    line-height: 1.7;
+}
+.products-text-custom {
+    text-align: left;
+}
+.shop-right .products-3 .products-image-3 a img {
+    width: 100%;
+    height: 80px;
+    object-fit: cover;
+}
+.shop-right .products-3{
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding: 10px 0px 0px;
+}
+.shop-right .custom-wiget-product .products-image-3 a img {
+    margin: 5px 0px;
+
+}
+.shop-right .products-3 .products-image-3{
+    width: 50%;
+    min-width: 0px;
+}
+.shop-right .products-3 .products-text-3 .products-text-name h6{
+    color: #642F8B;
+    overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-inline-box;;
+        -webkit-line-clamp: 2; /* number of lines to show */
+        -webkit-box-orient: vertical;
+}
+.row-shop .shop-left .row-post-item {
+    margin: 20px 5px 0px;
+}
+.row-shop .shop-left .row-post-item .post-image .img {
+    width: 100%;
+}
+.shop-right .products-3 .products-text-3{
+    width: 100%;
+    padding:5px 5px 5px 20px;
+}
+.shop-left .shop .products-text-name h6 {
+    color: #642F8B;
+    overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-inline-box;;
+        -webkit-line-clamp: 1; /* number of lines to show */
+        -webkit-box-orient: vertical;
+}
+.space-margin {
+    margin-top: 20px;
+    background-color: #f3f4f8;
+}
+.row-main-products {
+    margin-top: 30px;
+    padding-top: 15px;
+}
+.shop-left .shop .products-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.shop-left .row-blog-item .blog-image img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.shop-left .row-blog-item .blog-text p{
+    overflow: hidden;
+   		text-overflow: ellipsis;
+   		display: -webkit-inline-box;;
+   		-webkit-line-clamp: 3; /* number of lines to show */
+   		-webkit-box-orient: vertical;
+}
+@media only screen and (max-width: 991px) {
+    .shop-left .products-text-name p {
+        font-size: 150%;
+    }
+    .shop-right .products-3 .products-image-3 {
+        width: 20%;
+        min-width: 0px;
+    }
+    .shop-right .products-3 .products-text-3 .products-text-name h6 {
+        color: #642f8b;
+    }
+}
+.products-text-name p {
+    color: black;
+}
+
+.row-related-products {
+    background-color: white;
+}
+.row-related-products .products-image img {
+    width: 100%;
+}
+.row-related-products .products-text {
+    padding: 10px 0px;
+}
+.row-related-products .product-related {
+    padding: 0px 20px;
+}
+.row-related-products .products-text h6{
+    color: #642F8B;
+    overflow: hidden;
+   		text-overflow: ellipsis;
+   		display: -webkit-inline-box;;
+   		-webkit-line-clamp: 2; /* number of lines to show */
+   		-webkit-box-orient: vertical;
+}
+.row-related-products .products-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.shop-left .row-main-products .mySlides img {
+    width: 430px;
+    height:430px;
+    object-fit: cover;
+}
+
+.custom-filter{
+    margin-top:30px;
+}
+@media only screen and (max-width: 768px) {
+    .shop-left .row-main-products .mySlides img {
+        width: 100%;
+        height:300px;
+        object-fit: cover;
+    }
+    .column-products img{
+        width: 100%;
+        height: 80px;
+        object-fit: cover;
+    }
+
+    .custom-filter{
+        padding: 0px 10px!important;
+    }
+}
+@media only screen and (max-width: 576px) {
+    .shop-left .shop .products-image img {
+        width: 100%;
+    }
+    .shop-left .products-text-name h6 {
+        font-size: 15px;
+    }
+    .shop-left .products-text-name p {
+        font-size: 15px;
+    }
+    .shop-left .row-blog-item .blog-text a {
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .shop-left .row-blog-item .blog-text p {
+        font-size: 18px;
+    }
+    .shop-left .row-blog-item .blog-image img{
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+    }
+    .shop-left .shop .products-image img{
+        width:  100%;
+        height: 150px;
+        object-fit: cover;
+    }
+    .shop-right .products-3 .products-image-3 {
+        width: 50%;
+        min-width: 0px;
+    }
+    .shop-right .products-3 .products-text-3 .products-text-name h6 {
+        color: #642f8b;
+        font-size: 100%;
+    }
+    .row-related-products .products-image img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+    .shop-left .row-main-products .mySlides img {
+        width: 100%;
+        height:300px;
+        object-fit: cover;
+    }
+    .shop-left .row-main-products .products-text-custom{
+        padding: 15px;
+    }
+    .button-buy{
+        padding-left: 15px;
+    }
+
+    .custom-filter p{
+        font-size: 85%;
+    }
+}
+
+.custom-notfound {
+    margin-top: 20px;
+    background-color: white;
+    font-size: 20px;
+    border-radius: 0px 10px 10px 0px;
+    padding: 10px 0px 10px 20px;
+    border-left: 5px solid orange;
+    width: 100%;
+}
+
+a:link {
+    text-decoration: none;
+}
+.products-text-name h6:hover {
+    color: orange !important;
+}
+.products-text-name h6 {
+    font-style: italic;
+}
+.section-3 .row-products-3 .products-image-3 {
+    padding: 10px;
+    margin-right: 5px;
+}
+.custom-color {
+    color: red;
+}
+.shop-left .row-main-products .description-products img{
+    width: 100%;
+}

@@ -1,0 +1,147 @@
+.cart-content {
+    background-color: #fff;
+}
+
+.cart-content .head-title{
+    font-size: 120%;
+}
+
+.cart-content .col-right .form-order .form-position .custom-select{
+    position: relative;
+    padding-top: 10px;
+}
+
+.cart-content .col-right .form-order .form-position .name-tinhthanh{
+    position: absolute;
+    top: -8px;
+    z-index: 1;
+    left: 28px;
+    font-size: 10px;
+}
+
+.cart-content .col-right .form-order .phuongthuc {
+    font-size: 100%;
+}
+
+.submit-don-hang button{
+    padding: 15px;
+    background-color: #338dbc;
+    border: 0px;
+    color: white;
+    border-radius: 5px;
+}
+
+/* col-left */
+.cart-content .col-left{
+    background-color: #fafafa;
+    padding:40px;
+    float: left;
+    width: 100%;
+}
+.cart-content .col-left .left-top{
+    float: left;
+    width: 100%;
+    margin: 10px 0px;
+}
+
+.cart-content .col-left .left-top .cart-img-box{
+    float: left;
+    width: 20%;
+}
+
+.cart-content .col-left .left-top .cart-img-box img{
+    width: 100%;
+}
+
+.cart-content .col-left .left-top .name-product{
+    float: left;
+    width: 50%;
+    margin: 0% 5% 0% 5%;
+}
+
+.cart-content .col-left .left-top .name-product a{
+    color: black;
+    cursor: pointer;
+}
+
+.cart-content .col-left .left-top .cost-product{
+    float: left;
+    width: 20%;
+    font-weight: 500;
+}
+
+.cart-content .col-left .hr-custom{
+    float: left;
+    width: 100%;
+}
+
+.cart-content .col-left .div-space{
+    float: left;
+    width: 100%;
+    height: 70px;
+}
+.cart-content .col-left .left-bottom strong{
+    font-weight: 500;
+    font-size: 120%;
+}
+
+.cart-img-box {
+    position: relative;
+}
+.cart-img-box .cart_qty_number {
+    position: absolute;
+    top: -10px;
+    width: 25px;
+    height: 25px;
+    left: 71px;
+    text-align: center;
+    background: gray;
+    border-radius: 50%;
+    color: #fff;
+}
+.cart_qty_number input {
+    width: 100%;
+    border-radius: 100%;
+    text-align: center;
+    background: gray;
+    border: none;
+    color: #fff;
+}
+.cart_qty_number input:focus {
+    border: none;
+}
+
+.box-qty {
+    margin-bottom: 20px;
+    width: 50px;
+    display: block;
+}
+.box-qty span {
+    float: left;
+    margin-right: 10px;
+    padding: 5px;
+}
+.box-qty input {
+    width: 50px;
+    float: left;
+    text-align: center;
+}
+.box-size  label {
+    padding: 5px;
+}
+.box-size  select {
+    float: left;
+    width: 100px;
+}
+
+@media screen and (max-width: 576px) {
+    .cart-img-box .cart_qty_number {
+        left: 40px;
+    }
+    .cart-content .col-left .left-top .name-product {
+        font-size: 13px;
+    }
+  }
+.custome-size-1rem {
+    font-size: 1rem !important;
+}

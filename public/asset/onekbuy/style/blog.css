@@ -1,0 +1,123 @@
+.row-blog {
+  padding: 20px;
+}
+
+.row-blog-item {
+  background-color: white;
+  width: 90%;
+  margin: 33px auto !important;
+}
+
+.blog-image {
+  width: 100%;
+}
+
+.blog-image img {
+  width: 100%;
+}
+
+.blog-text {
+  font-size: 26px;
+  font-style: italic;
+  margin-top: 40px;
+}
+.blog-text a {
+  color: #5A1A8B;
+  text-decoration: none;
+}
+
+.blog-text:hover a {
+  color: #f77426;
+  text-decoration: none;
+}
+
+.recent-posts li:before {
+  color: #888;
+  content: "✜";
+  font-size: 12px;
+  left: 30px;
+  line-height: 20px;
+  position: absolute;
+}
+
+.recent-posts ul {
+  list-style: none;
+}
+
+.recent-posts ul li {
+  border-bottom: 1px dotted #eee;
+  padding: 9px 0 10px 20px;
+}
+
+.recent-posts li a {
+  color: #333;
+  font-style: italic;
+}
+
+.recent-posts li:hover a {
+  color: #f77426;
+  text-decoration: none;
+}
+
+.form-group {
+  display: flex;
+}
+
+.button-blog {
+  background-color: #f77426;
+  border: none;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  color: #fff;
+  cursor: pointer;
+  font-size: 18px;
+  height: 40px;
+  margin-left: -1px;
+  outline: medium none;
+  right: 0;
+  width: 50px;
+  -webkit-transition: all 300ms ease-out 0s;
+  -moz-transition: all 300ms ease-out 0s;
+  -o-transition: all 300ms ease-out 0s;
+  -ms-transition: all 300ms ease-out 0s;
+  transition: all 300ms ease-out 0s;
+  vertical-align: top;
+}
+
+.blog-text p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-top: 15px;
+  font-style: normal;
+}
+.row-post-item .post-image img{
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  padding: 15px 0px 30px;
+}
+
+.row-post-item .post-text p{
+  font-size: 110%;
+  font-weight: 400;
+}
+
+@media only screen and (max-width: 767px) {
+  .row-blog .row-blog-item .blog-text {
+    margin-top: 0px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .row-post-item .post-image img{
+    height: 300px;
+  }
+  .row-post-item .post-text h2{
+    font-size: 150%;
+  }
+  .row-post-item .post-text p img {
+    width: 100% !important;
+    object-fit: contain !important;
+  }
+}

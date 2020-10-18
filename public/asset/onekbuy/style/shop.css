@@ -1,0 +1,55 @@
+.shop {
+  padding: 30px 10px;
+}
+
+.shop-background{
+  background-color: #F3F4F8;
+}
+
+.category {
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  margin-bottom: 15px;
+  margin-top: 30px;
+  padding:20px 10px;
+}
+
+.text-category {
+  background-color: #fafafa;
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  padding: 10px 0;
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+form .custom-select {
+  margin: 0px !important;
+}
+
+.row-shop .col-6 {
+  padding: 0px;
+}
+
+.row-shop{
+  max-width: 1250px;
+}
+
+.container-shop, .row-shop {
+    max-width: 1250px !important;
+}
+@media only screen and (max-width:959px) {
+  .products-3 .products-image-3{
+    width:15%;
+  }
+}
+
+.products-image a img {
+  width: 100%;
+  object-fit: cover;
+}

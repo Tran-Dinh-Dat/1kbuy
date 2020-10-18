@@ -1,0 +1,33 @@
+.has-huge-font-size span {
+    font-size: 42px;
+}
+
+.row-intro-left {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.has-medium-font-size {
+    font-size: 20px;
+}
+
+
+
+.form-update-info .form-group {
+    display: block;
+}
+
+@media only screen and (max-width: 575px) {
+    .row-intro-left {
+        padding: 0px !important;
+        margin: 10px;
+    }
+    h1 {
+        font-family: "Roboto", sans-serif;
+        margin-top: 0;
+        margin-bottom: 15px;
+        font-size: 180%;
+    }
+}

@@ -1,0 +1,81 @@
+.nav-pills .nav-link.active {
+    color: #0099cc;
+    background: #fff;
+}
+
+.row.row-form {
+    padding: 50px;
+    background-color: #5b7eb9;
+    margin: 30px auto;
+}
+@media only screen and (max-width: 767px) {
+    .row.row-form {
+        padding:0px;
+        background-color: #5b7eb9;
+        margin: 30px auto;
+    }
+}
+
+.form-update-info .form-group {
+    display: block !important;
+}
+
+.form-reset-pass .form-group {
+    display: block !important;
+}
+
+.nav-pills-custom .nav-link {
+    color: #aaa;
+    background: #fff;
+    position: relative;
+}
+
+.nav-pills-custom .nav-link::before {
+    content: "";
+    display: block;
+    border-top: 8px solid transparent;
+    border-left: 10px solid #fff;
+    border-bottom: 8px solid transparent;
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    transform: translateY(-50%);
+    opacity: 0;
+}
+
+.nav-pills-custom .nav-link.active::before {
+    opacity: 1;
+}
+
+.input-custom input:hover {
+    cursor: not-allowed;
+}
+.signin-button-custom{
+    background-color: white;
+    width: 100%;
+    padding: 20px 0px;
+    float: left;
+    color:#0099cc;
+    font-weight: 500;
+    font-size: 100%;
+}
+/* .signin-button-custom:hover span{
+    color:orange;
+} */
+.signin-form-custom{
+    background-color: white;
+    padding: 10px;
+    border-radius: 3px;
+}
+.row-form .navbar .active {
+    color:orange;
+}
+.row-form .navbar{
+    padding:0px;
+}
+
+.custom-table {
+	width: 30em;
+	overflow-x: auto;
+	white-space: nowrap;
+}

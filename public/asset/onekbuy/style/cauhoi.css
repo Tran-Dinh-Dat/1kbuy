@@ -1,0 +1,40 @@
+
+  .wp-block-image img {
+    width: 100% !important;
+  }
+  
+  .row-question-left {
+    background-color: white;
+    padding: 30px;
+    margin: 30px 0px;
+  }
+  .entry-content {
+    display: block;
+    margin: 0 0 20px;
+  }
+  
+  .blocks-gallery-item img {
+    width: 80%;
+  }
+  
+  @media only screen and (max-width: 1200px) {
+    .blocks-gallery-item img {
+      width: 80%;
+    }
+  }
+  
+  @media only screen and (max-width: 575px) {
+    .row-question-left {
+      padding: 10px !important;
+      margin: 10px;
+    }
+  
+    .row-question-left img {
+      width: 80%;
+    }
+  
+    p {
+      padding: 0px;
+    }
+  }
+  

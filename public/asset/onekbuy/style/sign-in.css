@@ -1,0 +1,72 @@
+.sign-in-form{
+    padding: 30px 0px;
+    background-color: white;
+}
+
+.sign-in-form .row .col{
+    background-color: white;
+    padding: 50px 50px;
+    border: 1px solid #d4d4d4;
+    border-radius: 20px;
+}
+
+.sign-in-form ul li{
+    width: 50%;
+    background-color: #EFF0F5;
+}
+.sign-in-form ul li a{
+    color: orange;
+}
+.sign-in-form ul li:hover a {
+    color: black;
+}
+.sign-in h3{
+    color: orange;
+}
+.sign-in p{
+    font-size: 80%;
+    text-align: center;
+    margin: 0px;
+    padding: 10px 0px;
+}
+.sign-in button{
+    width: 100%;
+    padding: 10px 0px;
+    margin-bottom: 10px;
+}
+.sign-in button i{
+    margin-right: 15px;
+    font-size:20px;
+}
+.form-sign-in span sup{
+    color:red;
+
+}
+.form-sign-in span{
+    font-size: 80%;
+    color:#BBA9A9;
+}
+
+.form-sign-in input[type='text'],.form-sign-in input[type='password'] {
+    width: 100%;
+    border: 1px solid #ddd; 
+    padding: 5px 10px;
+    margin-bottom: 20px;
+}
+
+.form-sign-in input[type='submit']{
+    width: 100%;
+    margin: 20px 0px 0px;
+    padding: 10px 0px;
+}
+
+
+.eyes-custom #formGroupExampleInput2{
+
+    display: inline;
+}
+.eyes-custom .icon-eyse{
+    display: inline;
+    margin-left: -30px;
+    margin-top: -25px;
+}
